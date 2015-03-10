@@ -73,7 +73,7 @@ Member Functions:
 Member Variables:
 =================
 
-	_account
-	_infoAPIKey
-	_payAPIKey
-	_baseURL
+	_account - user account to use for requests
+	_infoAPIKey - Info API Key to use for requests
+	_payAPIKey - Pay API Key to use for requests
+	_baseURL - base form of the url to use for requests
