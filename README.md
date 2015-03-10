@@ -20,7 +20,7 @@ cmBot is just a set of wrapper functions built around the coinmine.pw API, for c
 ===========
 Other Info:
 ===========
-https://bleutrade.com/help/API - official API Documentation
+http://coinmine.pw/api-information.php - official API Documentation
 
 =================
 Member Functions:
