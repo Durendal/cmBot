@@ -45,7 +45,7 @@ class cmBot:
 					'apikey' : self._getInfoAPIKey(),
 					'account' : self._getAccount(),
 				}
-		return self.authInfoAPIKey(params)
+		return self._authInfoAPIKey(params)
 
 	def switch(self, ticker):
 		params = {
@@ -55,7 +55,7 @@ class cmBot:
 					'ticker' : ticker
 				}
 
-		return self.authInfoAPIKey(params)
+		return self._authInfoAPIKey(params)
 
 	def payInfo(self):
 		data = {
